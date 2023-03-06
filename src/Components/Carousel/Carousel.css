@@ -1,0 +1,21 @@
+.Carousel {
+  margin: 0.5rem;
+  width: 12rem;
+}
+
+.Carousel .button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Carousel button {
+  border-radius: 0.50rem;
+  border: 1px solid grey;
+  padding: 0.25rem 0.5rem;
+}
+
+.Carousel img {
+  border: 1px solid lightgrey;
+  width: 12rem;
+}

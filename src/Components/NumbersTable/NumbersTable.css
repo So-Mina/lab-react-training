@@ -1,0 +1,17 @@
+.NumbersTable {
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.NumbersTable .number {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0.1rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+}

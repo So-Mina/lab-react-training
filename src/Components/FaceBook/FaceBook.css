@@ -1,0 +1,71 @@
+.FaceBook {
+  margin: 0.5rem;
+}
+
+.FaceBook .profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin : 0.5rem 0;
+  border: 1px solid black;
+}
+
+.FaceBook img {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid lightgrey;
+  margin: 0.5rem;
+}
+
+.FaceBook span {
+  font-weight: 700;
+}
+
+.FaceBook p {
+  line-height: 0.5;
+}
+
+.FaceBook .SearchByCountry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.FaceBook button {
+  border-radius: 0.50rem;
+  border: 1px solid grey;
+  padding: 0.25rem 0.5rem;
+}
+
+.FaceBook button:hover {
+  border-radius: 0.50rem;
+  border: 1px solid grey;
+  background-color: black;
+  color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+.FaceBook .SearchArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.FaceBook .SearchAndSort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.FaceBook hr {
+  width: 90vw;
+}
+
+.FaceBook  ::placeholder {
+  font-style: italic;
+}

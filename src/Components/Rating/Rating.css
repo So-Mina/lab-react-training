@@ -1,3 +1,7 @@
 .Rating span {
   font-size: 3rem;
 }
+
+.Rating {
+  margin: 0.5rem;
+}

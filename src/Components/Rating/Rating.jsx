@@ -14,7 +14,7 @@ function Rating({ children }) {
         <span key={index}>☆</span>
       ))}
     </div>
-  );
+  )
 }
 
 export default Rating

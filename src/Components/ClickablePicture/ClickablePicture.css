@@ -1,0 +1,5 @@
+.ClickablePicture img {
+  width: 15rem;
+  margin: 0.5rem;
+  border: 1px solid lightgrey;
+}

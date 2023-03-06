@@ -1,0 +1,27 @@
+.DriverCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  background-color: rgb(66, 105, 247);
+  border-radius: 1rem;
+  color: white;
+  width: 50rem;
+  height: 8rem;
+}
+
+.DriverInfos {
+  line-height: 0.5rem;
+}
+
+.DriverImg img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.DriverCard p span:last-child {
+  padding: 0 1rem;
+}

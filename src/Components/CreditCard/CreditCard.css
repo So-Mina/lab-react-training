@@ -1,0 +1,43 @@
+.creditCardBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.CreditCard {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 10rem;
+  position: relative;
+
+}
+
+.CreditCard img {
+  position: absolute;
+  top: 0; 
+  right: 0; 
+  height: 1rem;
+  margin: 1rem;
+}
+
+.CreditCard .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+  width: 100%
+}
+
+.CreditCard .infos {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 1rem;
+}
+
+.CreditCard span {
+  padding: 0.25rem
+}

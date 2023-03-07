@@ -1,0 +1,26 @@
+.RGBColorPicker {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.SingleColorPicker {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SingleColorPicker label {
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+.SingleColorPicker input {
+  margin: 0.5rem;
+}
+
+.SingleBox .Color {
+  margin: 0 1rem;
+  font-weight: 500;
+}

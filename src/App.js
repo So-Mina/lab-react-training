@@ -1,8 +1,10 @@
 import './App.css';
-import BoxColor from './Components/BoxColor/BoxColor'
-import Greetings from './Components/Greetings/Greetings'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import IdCard from './Components/IdCard/IdCard'
+import Greetings from './Components/Greetings/Greetings'
 import Random from './Components/Random/Random'
+import BoxColor from './Components/BoxColor/BoxColor'
 import CreditCard from './Components/CreditCard/CreditCard'
 import Rating from './Components/Rating/Rating'
 import DriverCard from './Components/DriverCard/DriverCard'
@@ -12,6 +14,8 @@ import Dice from './Components/Dice/Dice'
 import Carousel from './Components/Carousel/Carousel'
 import NumbersTable from './Components/NumbersTable/NumbersTable'
 import FaceBook from './Components/FaceBook/FaceBook'
+import SignupPage from './Components/SignupPage/SignupPage'
+import RGBColorPicker from './Components/RGBColorPicker/RGBColorPicker'
 
 function App() {
 
@@ -127,6 +131,11 @@ function App() {
       <h2>FaceBook</h2>
         <FaceBook />
 
+      <h2>Signup Page</h2>
+        <SignupPage />
+      
+      <h2>RGB Color Picker</h2>
+        <RGBColorPicker />
     </div>
   )
 }

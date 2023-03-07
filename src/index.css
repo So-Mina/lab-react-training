@@ -13,5 +13,7 @@ code {
 }
 
 h2 {
-  margin: 2rem 0 0 1rem;
+  margin: 3rem 0 0 1rem;
+  Padding: 3rem 0 0 0;
+  text-decoration: underline;
 }

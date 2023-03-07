@@ -1,0 +1,8 @@
+.SignupPage {
+  margin: 0.5rem;
+}
+
+
+.SignupPage Button, .SignupPage p {
+  margin: 0.5rem 0;
+}
